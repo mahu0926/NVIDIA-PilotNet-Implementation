@@ -7,4 +7,4 @@ Created 3 Models
 2. PilotNet with Dropout: Applies Dropout layer after each FC layer
 3. PilotNet with Batch Normalization: Applies Batch Norm after first 2 Convolutional layers
 
-Findings: Dropout decreases variance but increases error of original PilotNet. Applying Batch Norm to PilotNet works best and decreases both variance and error. 
+Findings: Dropout decreases variance but increases root mean squared error (RMSE) of original PilotNet. Applying Batch Norm to PilotNet works best and decreases both variance and RMSE. 
